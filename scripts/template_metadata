@@ -1,0 +1,12 @@
+{
+  "name": "HotelAdsDataTransfer",
+  "description": "Data flow template to copy Hotel Ads data to BigQuery.",
+  "parameters": [{
+    "name": "cs_filename",
+    "label": "Input Cloud Storage File(s)",
+    "help_text": "Path of the file pattern glob to read from.",
+    "regexes": ["^gs:\/\/[^\n\r]+$"],
+    "is_optional": false
+  }]
+}
+
