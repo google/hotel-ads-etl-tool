@@ -1,3 +1,7 @@
+# This solution has been deprecated and is no longer supported or maintained
+
+----
+
 # Hotel Ads ETL Tool
 
 This repository contains a tool that provides methods to extract information
